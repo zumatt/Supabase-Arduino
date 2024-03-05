@@ -1,0 +1,26 @@
+{
+    "name": "Supabase ESP32 Connection",
+    "keywords": "supabase, arduino, realtime database, database, IoT",
+    "description": "A library to connect to Supabase's Realtime Database from an ESP32 in realtime with API Key authentication.",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zumatt/Supabase-ESP32"
+    },
+    "authors":
+    [
+      {
+        "name": "Matteo Subet",
+        "email": "matteo.subet@supsi.ch",
+        "url": "http://link.zumat.ch",
+        "maintainer": true
+      }
+    ],
+    "dependencies":
+    {
+    },
+    "version": "1.0.0",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "examples": "examples/*/*.ino"
+  }
