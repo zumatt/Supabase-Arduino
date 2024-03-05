@@ -12,7 +12,7 @@ String supabase_table;
 SUPABASE::SUPABASE(String url, String key, String tableName)
 {
     supabase_table = tableName;
-    supabase_url = url + "/" + supabase_table;
+    supabase_url = url + "/" + supabase_table + "/rest/v1";
     supabase_key = key;
     supabase_bearer = "Bearer " + key;
 }
