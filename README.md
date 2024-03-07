@@ -1,9 +1,9 @@
-# Supabase-ESP32
-### A library to connect to Supabase's Realtime Database from an ESP32 in realtime with API Key authentication.
+# Supabase-Arduino
+### A library to connect to Supabase's Realtime Database from an Arduino with API Key authentication.
 
-The Arduino Nano ESP32 library provides a simple and efficient way to integrate Supabase.io's Realtime Database into your ESP32 projects. By leveraging API Key authentication, this library enables real-time communication between your ESP32 microcontroller and Supabase.io's powerful database infrastructure.
+The Arduino library provides a simple and efficient way to integrate Supabase.io's Realtime Database into your ESP32 or RP2040 projects. By leveraging API Key authentication, this library enables real-time communication between your microcontroller and Supabase.io's powerful database infrastructure.
 
-To get started, simply include the library in your Arduino IDE and follow the provided documentation to establish a connection with Supabase.io. Once connected, you can easily retrieve, update, and synchronize data between your ESP32 and the Supabase.io Realtime Database.
+To get started, simply include the library in your Arduino IDE and follow the provided documentation to establish a connection with Supabase.io. Once connected, you can easily retrieve, update, and synchronize data between your Arduino and the Supabase.io Realtime Database.
 
 With the Arduino Nano ESP32 library, you can unlock the full potential of Supabase.io's Realtime Database and build IoT applications that seamlessly interact with cloud-based data. Start building your next project today!
 ---
@@ -12,9 +12,9 @@ At the moment installation has to be done manually either on a global level (*li
 The library will be soon available also from the Arduino IDE.
 
 For the time being when including it you'll have to go with
-```#include "SupabaseESP32.h"```
+```#include "SupabaseArduino.h"```
 
-#### Usage
+#### ESP32 Usage
 In order to setup the library you need to pass the following data.
 Please note that those data are available from you supabase database settings under the API tab (https://supabase.com/dashboard/project/PROJECT-CODE/settings/api).
 ```
@@ -45,5 +45,8 @@ After that line of code, you can use three different method in order to interact
         value = 100.0;
     supabaseClient.insert(column, value);
 ```
+
+#### RP2040 Usage
+Coming soon...
 
 Under the examples you can find a .ino file that includes all the mentioned functions working.
