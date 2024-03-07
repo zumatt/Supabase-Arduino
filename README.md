@@ -50,3 +50,10 @@ After that line of code, you can use three different method in order to interact
 Coming soon...
 
 Under the examples you can find a .ino file that includes all the mentioned functions working.
+
+### ToDo List
+
+- [ ] RP2040 insert and update integration
+- [ ] Realtime integration from Supabase
+- [ ] Other Arduino Boards supports
+- [ ] Micropython Library
