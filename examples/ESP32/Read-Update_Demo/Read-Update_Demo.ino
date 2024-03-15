@@ -1,11 +1,11 @@
 #include <SupabaseArduino.h>
 
-#define SSID      "FabulousNet"
-#define PASSWORD  "25jan2022"
+#define SSID      "YOURSSID"
+#define PASSWORD  "YOURPASSWORD"
 
-#define URL       "https://mwezguicqnnqaoolfnjr.supabase.co"
-#define APIKEY    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im13ZXpndWljcW5ucWFvb2xmbmpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDk2MzA1MDUsImV4cCI6MjAyNTIwNjUwNX0.B9QVLOD3uP9MUPRqf64_VqSFmRV78FTRa89kdk3mGps"
-#define TABLE     "Speed"
+#define URL       "https://databaseurl.supabase.co"
+#define APIKEY    "APIKEY"
+#define TABLE     "TABLENAME"
 
 void setup() {
   // put your setup code here, to run once:
